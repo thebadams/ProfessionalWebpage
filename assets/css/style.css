@@ -11,6 +11,19 @@ html {
     background-color: var(--dark)
 }
 
+.personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--light);
+}
+
 main {
     max-width: 1200px;
     font-size: 16px;
