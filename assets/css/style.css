@@ -38,7 +38,7 @@ h1 {
 
 nav {
     width: 100%;
-    /* border-bottom: 2px solid var(--light); */
+    border-top: 2px solid var(--light);
 }
 
 ul {
@@ -87,12 +87,16 @@ a:visited {
     color: var(--light);
 }
 
-li:hover, li a:hover {
+li:hover a, li a:hover {
     color: var(--dark);
     background-color: var(--light);
 }
 
 li {
     display: inline-block;
-    /* width: 33.33%; */
+    height: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
 }
