@@ -1,6 +1,7 @@
 :root {
     --light: #FFD662FF;
-    --dark: #00539CFF
+    --dark: #00539CFF;
+    font-size: 16px;
 }
 * {
     box-sizing: border-box;
@@ -10,6 +11,13 @@ body {
     background-color: var(--dark);
     color: var(--light);
     /* font-family: monospace; */
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    border: 2px solid var(--light);
+    border-radius: 8px;
 }
 
 .personal {
@@ -30,7 +38,7 @@ h1 {
 
 nav {
     width: 100%;
-    border-bottom: 2px solid var(--light);
+    /* border-bottom: 2px solid var(--light); */
 }
 
 ul {
@@ -68,4 +76,23 @@ section[id] {
 img {
     border: 2px solid var(--light);
     border-radius: 50%;
+}
+
+a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--light);
+}
+
+li:hover, li a:hover {
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+li {
+    display: inline-block;
+    /* width: 33.33%; */
 }
