@@ -65,12 +65,12 @@ figure.focus {
     height: 400px;
 }
 
-figure.screenshot {
+/* figure.screenshot {
     background-image: url(../images/rgbmatchgame.png);
     width: 100%;
     height: 100%;
     ;
-}
+} */
 
 section h2 {
     text-align: center;
