@@ -11,6 +11,13 @@ html {
     background-color: var(--dark)
 }
 
+header {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 1px solid var(--light)
+}
+
 .personal {
     display: flex;
     flex-direction: column;
@@ -31,6 +38,11 @@ main {
     text-align: center;
     margin: auto;
     border: 1px solid var(--light);
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
 }
 
 h1 {
