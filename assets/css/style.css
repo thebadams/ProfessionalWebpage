@@ -35,6 +35,15 @@ ul {
 
 figure {
     height: 200px;
-    width: 200px;
     background-color: blue;
+    width: 48%;
+    margin: 10px 1%;
+}
+
+figure.focus {
+    width: 100%;
+}
+
+section h2 {
+    text-align: center;
 }
