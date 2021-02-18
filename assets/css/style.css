@@ -16,6 +16,7 @@ main {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    margin: auto;
     border: 1px solid var(--light);
 }
 
@@ -38,14 +39,12 @@ h1 {
     padding: 1rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 769px) {
     .cards_item {
        width: 50%; 
     }
-}
-
-@media (min-width: 56rem) {
-    .cards_item {width: 33%;
+    .focus {
+        width: 100%;
     }
 }
 
@@ -58,7 +57,20 @@ h1 {
   overflow: hidden;
 }
 
-.card_img img {
+img.screenshot {
     height: auto;
     max-width: 100%;
+    vertical-align: middle;
+}
+
+.card-content h2 {
+    color: var(--light);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card-content p {
+    color: var(--light);
+    text-transform: uppercase;
+    font-weight: 400;
 }
