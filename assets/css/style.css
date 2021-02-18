@@ -1,11 +1,22 @@
+:root {
+    --light: #FFD662FF;
+    --dark: #00539CFF
+}
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+    /* font-family: monospace; */
 }
 
 .personal {
    display: flex;
    flex-direction: column;
    align-items: center;
+   border-bottom: 2px solid var(--light);
 }
 
 header img {
@@ -19,6 +30,7 @@ h1 {
 
 nav {
     width: 100%;
+    border-bottom: 2px solid var(--light);
 }
 
 ul {
@@ -42,8 +54,18 @@ figure {
 
 figure.focus {
     width: 100%;
+    height: 400px;
 }
 
 section h2 {
     text-align: center;
+}
+
+section[id] {
+    border-bottom: 2px solid var(--light);
+}
+
+img {
+    border: 2px solid var(--light);
+    border-radius: 50%;
 }
