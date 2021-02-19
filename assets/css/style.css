@@ -99,3 +99,9 @@ img.screenshot {
     text-transform: uppercase;
     font-weight: 400;
 }
+
+section#contact-info ul {
+    display: flex;
+    justify-content: space-around;
+}
+
