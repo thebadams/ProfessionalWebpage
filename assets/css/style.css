@@ -1,7 +1,10 @@
+/* Define Root CSS */
 :root {
     --light: #FFD662FF;
     --dark: #00539CFF;
 }
+
+/* Style Everything */
 
 * {
     box-sizing: border-box;
@@ -10,6 +13,7 @@
 html {
     background-color: var(--dark)
 }
+/* Style Header */
 
 header {
     max-width: 1200px;
@@ -17,6 +21,8 @@ header {
     margin-bottom: 5px;
     border: 1px solid var(--light)
 }
+
+/* Flexbox - Profile pic and Heading */
 
 .personal {
     display: flex;
@@ -31,6 +37,32 @@ header {
     border: 2px solid var(--light);
 }
 
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Style Navbar */
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style anchor tags */
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--light);
+}
+
+a:visited {
+    color: var(--light);
+}
+
+/* Style main section */
+
 main {
     max-width: 1200px;
     font-size: 16px;
@@ -40,16 +72,10 @@ main {
     border: 1px solid var(--light);
 }
 
-.links {
-    display: flex;
-    justify-content: space-around;
-}
 
-h1 {
-    font-size: 36px;
-    font-weight: 400;
-    text-align: center;
-}
+
+
+/* Style Portfolio Section */
 
 .cards {
     display: flex;
@@ -74,7 +100,7 @@ h1 {
 }
 
 .card {
-    background-color: white;
+    background-color:var(--dark);
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
