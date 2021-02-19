@@ -19,6 +19,7 @@ header {
     max-width: 1200px;
     margin: auto;
     margin-bottom: 5px;
+    padding: 10px;
     border: 1px solid var(--light)
 }
 
@@ -125,6 +126,8 @@ img.screenshot {
     text-transform: uppercase;
     font-weight: 400;
 }
+
+/* Style Contact Info Section */
 
 section#contact-info ul {
     display: flex;
