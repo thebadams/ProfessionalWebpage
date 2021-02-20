@@ -3,6 +3,7 @@
     --light: #FFD662FF;
     --dark: #00539CFF;
     --accent: grey;
+
 }
 
 /* Style Everything */
@@ -12,7 +13,9 @@
 }
 
 html {
-    background-color: var(--dark)
+    color: var(--light);
+    background-color: var(--dark);
+    font-size: 16px;
 }
 /* Style Header */
 
@@ -21,7 +24,8 @@ header {
     margin: auto;
     margin-bottom: 5px;
     padding: 10px 0;
-    border: 1px solid var(--light)
+    border: 1px solid var(--light);
+    border-radius: 10px;
 }
 
 /* Flexbox - Profile pic and Heading */
@@ -30,6 +34,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 2px solid var(--accent);
 }
 
 .profile-pic {
@@ -40,9 +45,11 @@ header {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 200%;
     font-weight: 400;
-    color: var(--light)
+    color: var(--light);
+    padding: 8px;
+
     /* text-align: center; */
 }
 
@@ -51,7 +58,7 @@ h1 {
 nav {
     margin-top: 10px;
     padding: 0 8px;
-    background-color: var(--accent)
+    border-top: 2px solid var(--accent);
 }
 
 .nav-links {
@@ -66,10 +73,14 @@ nav {
     border: 1px solid rgba(0, 0, 0, 0)
 }
 
-.nav-links li:hover{
+.nav-links li:hover {
     border: 1px solid var(--light);
     border-radius: 8px;
-    background-color: var(--dark);
+    background-color: var(--accent);
+}
+
+.nav-links li:hover a {
+    color: var(--dark);
 }
  
 /* Style anchor tags */
@@ -91,7 +102,24 @@ main {
     font-weight: 400;
     text-align: center;
     margin: auto;
-    border: 1px solid var(--light);
+}
+
+h2 {
+    font-size: 150%;
+    padding: 5px;
+    background-color: var(--accent);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Style About Me Section */
+section#aboutme {
+    border: 2px solid var(--light);
+    border-radius: 10px;
+}
+
+.about-content {
+    padding: 10px;
 }
 
 
