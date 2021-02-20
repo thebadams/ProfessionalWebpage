@@ -101,25 +101,26 @@ main {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin: auto;
+    margin:auto;
 }
 
 h2 {
     font-size: 150%;
     padding: 5px;
-    background-color: var(--accent);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-bottom: 2px solid var(--accent);
 }
 
 /* Style About Me Section */
 section#aboutme {
-    border: 2px solid var(--light);
+    border: 1px solid var(--light);
     border-radius: 10px;
+    margin-top: 15px;
 }
 
 .about-content {
     padding: 10px;
+    border-top: 2px solid var(--accent);
+    margin-top: 10px;
 }
 
 
@@ -127,12 +128,21 @@ section#aboutme {
 
 /* Style Portfolio Section */
 
+section#portfolio {
+    border: 1px solid var(--light);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0;
+    margin-top: 10px;
     padding: 0;
+    border-top: 2px solid var(--accent);
 }
 
 .cards_item {
@@ -151,11 +161,11 @@ section#aboutme {
 
 .card {
     background-color:var(--dark);
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+    border: 2px solid var(--light);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 img.screenshot {
@@ -164,16 +174,25 @@ img.screenshot {
     vertical-align: middle;
 }
 
-.card-content h2 {
+.card-content {
+    border-top: 20px solid var(--accent);
+}
+
+.card-content h3 {
     color: var(--light);
-    font-size: 24px;
+    font-size: 125%;
     font-weight: 400;
+    margin: 8px 0;
 }
 
 .card-content p {
+    font-size: 100%;
     color: var(--light);
     text-transform: uppercase;
     font-weight: 400;
+    margin: 8px 0;
+    border-top: 2px solid var(--accent);
+    padding-top: 5px
 }
 
 /* Style Contact Info Section */
@@ -181,5 +200,8 @@ img.screenshot {
 section#contact-info ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    border: 2px solid var(--light);
+    height: 50px;
 }
 
