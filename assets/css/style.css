@@ -22,8 +22,6 @@ html {
 header {
     max-width: 1200px;
     margin: auto;
-    margin-bottom: 5px;
-    padding: 10px 0;
     border: 1px solid var(--light);
     border-radius: 10px;
 }
@@ -57,29 +55,29 @@ h1 {
 
 nav {
     margin-top: 10px;
-    padding: 0 8px;
     border-top: 2px solid var(--accent);
+    height: 50px;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-between;
-    line-height: 2;
+    align-items: center;
+    line-height: 50px;
 
 }
 
-.nav-links li{
+.nav-item {
     padding: 0 5px;
-    border: 1px solid rgba(0, 0, 0, 0)
+    border: transparent;
 }
-
-.nav-links li:hover {
+.nav-item:hover {
     border: 1px solid var(--light);
     border-radius: 8px;
     background-color: var(--accent);
 }
 
-.nav-links li:hover a {
+.nav-item:hover a {
     color: var(--dark);
 }
  
@@ -92,6 +90,14 @@ a {
 
 a:visited {
     color: var(--light);
+}
+
+/* Style Section Boxes */
+
+.content-section {
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
 /* Style main section */
@@ -111,11 +117,7 @@ h2 {
 }
 
 /* Style About Me Section */
-section#aboutme {
-    border: 1px solid var(--light);
-    border-radius: 10px;
-    margin-top: 15px;
-}
+
 
 .about-content {
     padding: 10px;
@@ -127,13 +129,6 @@ section#aboutme {
 
 
 /* Style Portfolio Section */
-
-section#portfolio {
-    border: 1px solid var(--light);
-    border-radius: 10px;
-    margin-top: 15px;
-}
-
 
 
 .cards {
@@ -197,11 +192,31 @@ img.screenshot {
 
 /* Style Contact Info Section */
 
-section#contact-info ul {
+.contact-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid var(--light);
     height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    border-top: 2px solid var(--accent);
 }
+
+.contact-item {
+    border:transparent;
+    padding: 0 5px;
+
+}
+
+.contact-item:hover {
+    border: 1px solid var(--light);
+    border-radius: 8px;
+    background-color: var(--accent);
+}
+
+.contact-item:hover a {
+    color: var(--dark);
+}
+
+
 
