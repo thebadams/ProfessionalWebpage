@@ -140,14 +140,28 @@ h2 {
     border-top: 2px solid var(--accent);
 }
 
-.cards_item {
+.cards-item {
     display: flex;
     padding: 1rem;
+    width: 25%;
 }
 
-@media (min-width: 769px) {
-    .cards_item {
-       width: 50%; 
+.focus {
+    width: 100%;
+}
+
+@media (max-width: 992px){
+    .cards-item {
+        width: 50%;
+    }
+    .focus {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-item {
+       width: 100%; 
     }
     .focus {
         width: 100%;
