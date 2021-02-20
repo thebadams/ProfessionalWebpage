@@ -22,7 +22,7 @@ html {
 header {
     max-width: 1200px;
     margin: auto;
-    border: 2px solid var(--light);
+    /* border: 2px solid var(--light); */
     border-radius: 10px;
     background-color: var(--dark);
 }
@@ -97,7 +97,7 @@ a:visited {
 /* Style Section Boxes */
 
 .content-section {
-    border: 2px solid var(--light);
+    /* border: 2px solid var(--light); */
     border-radius: 10px;
     margin-top: 15px;
     background-color: var(--dark);
