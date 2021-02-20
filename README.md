@@ -26,25 +26,31 @@ The behavior of the web application should be as follows:
 
 Here are screenshots of the web application at full width, 992px, and 769px:
 
-!screenshot1
-!screenshot 2
-!screenshot 3
-!screenshot 4
+*Screenshots at Full-Width*
+![ScreenShot 1](assets/images/portfolio-top-full-res.png)
+![Screenshot 2](assets/images/portfolio-middle-full-res.png)
+![Screenshot 3](assets/images/portfolio-bottom-full-res.png)
+*Screenshot at 992px Screen Width*
+![Screenshot 4](assets/images/portfolio-992px.png)
+*Screenshot at 768px Screen Width*
+![Screenshot 5](assets/images/portfolio-768px.png)
 
 etc.
 
 ## Deployment
 
-The Web Application Can Be Accessed at This Link
+The Web Application Can Be Accessed at [This Link](enterurlhere)
+
+The Repository can be found at [this link]()
 
 ## Credits
 
-The following CodePen acted as inpiration and starter code for the portfolio cards section of my HTML and CSS; I took the parts of it that I wanted made my own tweaks to the CSS and HTML.
+The following [CodePen](https://codepen.io/mcraiganthony/pen/NxGxqm) acted as inpiration and starter code for the portfolio cards section of my HTML and CSS; I took the parts of it that I wanted made my own tweaks to the CSS and HTML.
 
 ## Contact Information
 
 I can be contacted at the following places
 
-* Email
-* Github
-* LinkedIn
+* [Email](mailto:bpeteradams@gmail.com)
+* [Github](https://www.github.com/thebadams)
+* [LinkedIn](https://www.linkedin.com/in/brian-adams-5a410b53/)
