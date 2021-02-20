@@ -14,7 +14,7 @@ The behavior of the web application should be as follows:
 
     1. When hovering over any of the text-links in the navigation bar or in the contact-links, the link should be highlighted using a different background, adding a border, and changing the color.
 
-    2. When hovering over the non-focus portfolio cards, the card should grow to cover 100% width, and be highlighted; the focus card will simply be highlighted.
+    2. When hovering over the non-focus portfolio cards, the  be highlighted.
 
     3. When resizing the screen's width, the cards rearrange and cover different widths at the following breakpoints: 992px, and 768px in screen width.
 

@@ -73,6 +73,8 @@ nav {
 .nav-item {
     padding: 0 5px;
     border: transparent;
+    transition-property: all;
+    transition-duration: .5s
 }
 .nav-item:hover {
     border: 1px solid var(--light);
@@ -89,6 +91,8 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--light);
+    transition-property: all;
+    transition-duration: .5s;
 }
 
 a:visited {
@@ -150,10 +154,12 @@ h2 {
     display: flex;
     padding: 1rem;
     width: 25%;
+    transition: border .5s;
 }
 
 .cards-item:hover{
-    width: 100%;
+    border: 2px solid var(--light);
+    border-radius: 8px;
 }
 
 .focus {
@@ -231,7 +237,8 @@ img.screenshot {
 .contact-item {
     border:transparent;
     padding: 0 5px;
-
+    transition-property: all;
+    transition-duration: .5s;
 }
 
 .contact-item:hover {
