@@ -1,7 +1,7 @@
 /* Define Root CSS */
 :root {
     --light: #FFD662FF;
-    --dark: #00539CFF;
+    --dark: rgba(0, 83, 156, 0.75);
     --accent: grey;
 
 }
