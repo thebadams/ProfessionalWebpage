@@ -39,9 +39,9 @@ etc.
 
 ## Deployment
 
-The Web Application Can Be Accessed at [This Link](enterurlhere)
+The Web Application Can Be Accessed at [This Link](https://thebadams.github.io/thebadams-portfolio/)
 
-The Repository can be found at [this link]()
+The Repository Can Be Found at [This Link](https://github.com/thebadams/thebadams-portfolio)
 
 ## Credits
 
