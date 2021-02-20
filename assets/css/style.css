@@ -144,10 +144,16 @@ h2 {
     border-top: 2px solid var(--accent);
 }
 
+
+
 .cards-item {
     display: flex;
     padding: 1rem;
     width: 25%;
+}
+
+.cards-item:hover{
+    width: 100%;
 }
 
 .focus {
