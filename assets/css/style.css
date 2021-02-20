@@ -192,6 +192,7 @@ img.screenshot {
     font-size: 125%;
     font-weight: 400;
     margin: 8px 0;
+    text-transform: uppercase;
 }
 
 .card-content p {
