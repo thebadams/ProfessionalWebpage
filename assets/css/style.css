@@ -2,6 +2,7 @@
 :root {
     --light: #FFD662FF;
     --dark: #00539CFF;
+    --accent: grey;
 }
 
 /* Style Everything */
@@ -19,7 +20,7 @@ header {
     max-width: 1200px;
     margin: auto;
     margin-bottom: 5px;
-    padding: 10px;
+    padding: 10px 0;
     border: 1px solid var(--light)
 }
 
@@ -41,16 +42,36 @@ header {
 h1 {
     font-size: 36px;
     font-weight: 400;
-    text-align: center;
+    color: var(--light)
+    /* text-align: center; */
 }
 
 /* Style Navbar */
 
-.nav-links {
-    display: flex;
-    justify-content: space-around;
+nav {
+    margin-top: 10px;
+    padding: 0 8px;
+    background-color: var(--accent)
 }
 
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+
+}
+
+.nav-links li{
+    padding: 0 5px;
+    border: 1px solid rgba(0, 0, 0, 0)
+}
+
+.nav-links li:hover{
+    border: 1px solid var(--light);
+    border-radius: 8px;
+    background-color: var(--dark);
+}
+ 
 /* Style anchor tags */
 a {
     text-decoration: none;
