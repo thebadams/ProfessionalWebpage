@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Inter';
+}
 .jumbotron .profile-pic {
     height: 400px;
     width:400px;
