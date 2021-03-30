@@ -1,6 +1,11 @@
 body {
     font-family: 'Inter';
 }
+
+/* .navbar {
+    position: fixed;
+    top: 0%;
+} */
 .jumbotron .profile-pic {
     height: 400px;
     width:400px;
@@ -13,3 +18,18 @@ body {
     border: 2px solid var(--light);
 
 }
+
+/* media queries */
+
+@media screen and (min-width: 992px){
+    .fixed-image {
+    position:fixed;
+    left: 10%;
+
+    }
+}
+
+
+
+
+
