@@ -77,6 +77,16 @@ body {
     background-color: var(--accentsat);
 }
 
+a {
+    text-decoration: none;
+    color: var(--light);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--lightsat)
+}
 /* media queries */
 
 @media screen and (min-width: 992px){
