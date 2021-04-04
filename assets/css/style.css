@@ -75,6 +75,7 @@ body {
 }
 .contact-info:hover{
     background-color: var(--accentsat);
+    color: var(--lightsat)
 }
 
 a {
