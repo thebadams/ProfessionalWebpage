@@ -68,6 +68,10 @@ body {
 
 }
 
+.landing-page-btn:hover {
+    color: var(--lightsat);
+}
+
 .card {
     background-color: var(--accent);
     border: 2px solid var(--lightsat);
