@@ -1,41 +1,64 @@
-/* Define Root CSS */
 :root {
-    --light: #FFD662FF;
-    --dark: rgba(0, 83, 156, 0.75);
-    --accent: grey;
+    --dark: #876796;
+    --light: #e3e8ec;
+    --accent: #bd7743;
+    --lightsat: hsl(207,19%, 25%);
+    --accentsat: hsl(26,60%,50%);
+    --darksat: hsl(281,19%,30%);
+
+}
+body {
+    font-family: 'Inter';
+    background-color: var(--dark);
+    color: var(--light)
 
 }
 
-/* Style Everything */
-
-* {
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+.active .nav-link {
+    color: var(--lightsat);
 }
 
-html {
+.navbar {
+    background-color: var(--accent);
+    border-bottom: 2px solid var(--lightsat)
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-collapse .navbar-nav .nav-link {
+    color: var(--light);
+    transition: all .3s ease-in-out;
+}
+
+
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-collapse .navbar-nav .nav-link:hover {
+    color: var(--lightsat)
+}
+
+.btn {
     color: var(--light);
     background-color: var(--accent);
-    font-size: 16px;
+    border-color: var(--accent);
+    transition: all .3s ease-in-out;
 }
-/* Style Header */
 
-header {
-    max-width: 1200px;
-    margin: auto;
-    /* border: 2px solid var(--light); */
-    border-radius: 10px;
+.btn:hover, .btn:active {
+    color: var(--light);
+    background-color: var(--accentsat);
+    border-color: var(--accentsat);
+}
+
+.jumbotron {
     background-color: var(--dark);
+    border-radius: 0%;
+}
+.jumbotron .profile-pic {
+    height: 400px;
+    width:400px;
+    border: 5px solid var(--accent);
 }
 
-/* Flexbox - Profile pic and Heading */
-
-.personal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 2px solid var(--accent);
-}
 
 .profile-pic {
     height: 200px;
@@ -45,211 +68,55 @@ header {
 
 }
 
-h1 {
-    font-size: 200%;
-    font-weight: 400;
-    color: var(--light);
-    padding: 8px;
-
-    /* text-align: center; */
-}
-
-/* Style Navbar */
-
-nav {
-    margin-top: 10px;
-    border-top: 2px solid var(--accent);
-    height: 50px;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 50px;
-
-}
-
-.nav-item {
-    padding: 0 5px;
-    border: transparent;
-    transition-property: all;
-    transition-duration: .5s
-}
-.nav-item:hover {
-    border: 1px solid var(--light);
-    border-radius: 8px;
+.card {
     background-color: var(--accent);
+    border: 2px solid var(--lightsat);
+    transition: all 0.3s ease-in-out;
 }
 
-.nav-item:hover a {
-    color: var(--dark);
-}
- 
-/* Style anchor tags */
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--light);
-    transition-property: all;
-    transition-duration: .5s;
-}
-
-a:visited {
-    color: var(--light);
-}
-
-/* Style Section Boxes */
-
-.content-section {
-    /* border: 2px solid var(--light); */
-    border-radius: 10px;
-    margin-top: 15px;
+.btn-primary {
     background-color: var(--dark);
 }
 
-/* Style main section */
-
-main {
-    max-width: 1200px;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    margin:auto;
+.btn-primary:hover{
+    background-color: var(--darksat);
+}
+.card-img-top{
+    border: 2px solid var(--lightsat);
+    border-radius: 5px;
+}
+.container {
+    background-color: var(--dark);
+}
+.contact-info {
+    transition: all 0.3s ease-in-out;
+}
+.contact-info:hover{
+    background-color: var(--accentsat);
+    color: var(--lightsat)
 }
 
-h2 {
-    font-size: 150%;
-    padding: 5px;
-    border-bottom: 2px solid var(--accent);
-}
-
-/* Style About Me Section */
-
-
-.about-content {
-    padding: 10px;
-    border-top: 2px solid var(--accent);
-    margin-top: 10px;
-}
-
-
-
-
-/* Style Portfolio Section */
-
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-top: 10px;
-    padding: 0;
-    border-top: 2px solid var(--accent);
-}
-
-
-
-.cards-item {
-    display: flex;
-    padding: 1rem;
-    width: 25%;
-    transition: border .5s;
-}
-
-.cards-item:hover{
-    border: 2px solid var(--light);
-    border-radius: 8px;
-}
-
-.focus {
-    width: 100%;
-}
-
-@media (max-width: 992px){
-    .cards-item {
-        width: 50%;
-    }
-    .focus {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .cards-item {
-       width: 100%; 
-    }
-    .focus {
-        width: 100%;
-    }
-}
-
-.card {
-    background-color:var(--accent);
-    border: 2px solid var(--dark);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-img.screenshot {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-.card-content {
-    background-color: var(--accent);
-}
-
-.card-content h3 {
+a {
+    text-decoration: none;
     color: var(--light);
-    font-size: 125%;
-    font-weight: 400;
-    margin: 8px 0;
-    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }
 
-.card-content p {
-    font-size: 100%;
-    color: var(--light);
-    text-transform: uppercase;
-    font-weight: 400;
-    margin: 8px 0;
-    border-top: 2px solid var(--dark);
-    padding-top: 5px;
+a:hover {
+    text-decoration: none;
+    color: var(--lightsat)
+}
+/* media queries */
 
+@media screen and (min-width: 992px){
+    .fixed-image {
+    position:fixed;
+    left: 10%;
+
+    }
 }
 
-/* Style Contact Info Section */
 
-.contact-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    line-height: 50px;
-    margin-top: 10px;
-    border-top: 2px solid var(--accent);
-}
-
-.contact-item {
-    border:transparent;
-    padding: 0 5px;
-    transition-property: all;
-    transition-duration: .5s;
-}
-
-.contact-item:hover {
-    border: 1px solid var(--light);
-    border-radius: 8px;
-    background-color: var(--accent);
-}
-
-.contact-item:hover a {
-    color: var(--dark);
-}
 
 
 
