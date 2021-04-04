@@ -4,6 +4,7 @@
     --accent: #bd7743;
     --lightsat: hsl(207,19%, 25%);
     --accentsat: hsl(26,60%,50%);
+    --darksat: hsl(281,19%,30%);
 
 }
 body {
@@ -65,8 +66,21 @@ body {
 
 .card {
     background-color: var(--accent);
+    border: 2px solid var(--lightsat);
+    transition: all 0.3s ease-in-out;
 }
 
+.btn-primary {
+    background-color: var(--dark);
+}
+
+.btn-primary:hover{
+    background-color: var(--darksat);
+}
+.card-img-top{
+    border: 2px solid var(--lightsat);
+    border-radius: 5px;
+}
 .container {
     background-color: var(--dark);
 }
