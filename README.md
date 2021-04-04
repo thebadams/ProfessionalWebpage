@@ -2,50 +2,70 @@
 
 ## Description
 
-This is the web application for my professional portfolio. It is a work in progress on several fronts:
-    
-    1. It is an ongoing record of my work. Any projects that I have completed will go here, in the portfolio section of the wep application. Currently there are two placeholder cards, held in reserve of as-yet-completed projects.
-    
-    2. The layout and technologies used within the web application will continue to evolve as my own skills do.
+This web application is built using HTML and Bootstrap 4 Framework. It is a portfolio of my work, which is changing constantly as I expand my skillset
 
 ## Instructions
 
 The behavior of the web application should be as follows:
 
-    1. When hovering over any of the text-links in the navigation bar or in the contact-links, the link should be highlighted using a different background, adding a border, and changing the color.
+   1. When the webpage loads, the user is greeted with a landing page which contains the following
+    
+    A large profile picture
+    A short tidbit about me
+    A button that will take you to my "about me" page
+    A nav bar at the top of the screen
 
-    2. When hovering over the non-focus portfolio cards, the  be highlighted.
+   2. When one follows the links, they should be taken to the requisite page
+   3. When one follows the link to the about me section
+    
+    They will be greeted with a navbar at the top that stays stuck to the top as they scroll
+    There will be a smaller profile picture on the left side that stays in place as you scroll
+    There will be several blurbs about me
+   
+   4. When one follows the link to the portfolio section
+        
+    They wil be greeted with a navbar at the top that stays stuck at the top as they scroll
+    There will be several cards detailing three projects:
+        1. The Music Project
+        2. The Weather Application
+        3. The JavaScript Code Quiz
+    There are buttons that will take you to that application's deployment, and another that will take you to the github repo. Both open in new pages.
 
-    3. When resizing the screen's width, the cards rearrange and cover different widths at the following breakpoints: 992px, and 768px in screen width.
+   5. When one follows the link to the contact section
+    
+    They will be greeted with a navbar on top that stays stuck at the top as they scroll.
+    There will be cards that will act as links:
+        1. A link to my github portfolio
+        2. A link to my linkedin portfolio
+        3. A link that will allow the user to send an email to my email
+        4. A link that will allow the user to view and download my resume
+        5. A link that will allow the user to make a call to my phone
+    All links open in a new tab.
 
-    4. The content of the page is limited in size to 1200px width. Any smaller and the elements will shrink to adjust using flex properties.
+   6. Responsive Behaviors
 
-    5. The links to outside webpages, when followed, will open a new tab.
+    The application is responsive in the following ways:
+        1. The navbar will collapse once it gets below a large screen size.
+        2. The cards will collapse into a single column below a large screen size.
+
 
 ## Screenshots
 
-Here are screenshots of the web application at full width, 992px, and 769px:
-
 *Screenshots at Full-Width*
-![ScreenShot 1](assets/images/portfolio-top-full-res.png)
-![Screenshot 2](assets/images/portfolio-middle-full-res.png)
-![Screenshot 3](assets/images/portfolio-bottom-full-res.png)
-*Screenshot at 992px Screen Width*
-![Screenshot 4](assets/images/portfolio-992px.png)
-*Screenshot at 768px Screen Width*
-![Screenshot 5](assets/images/portfolio-768px.png)
-
-etc.
+![ScreenShot 1](assets/images/screenshots/landing-page.png)
+![Screenshot 2](assets/images/screenshots/aboutme-full-page.png)
+![Screenshot 3](assets/images/screenshots/portfolio-full-page.png)
+![Screenshot 4](assets/images/screenshots/contact-info-full-page.png)
+*Screenshot at < 992px Screen Width*
+![Screenshot 5](assets/images/screenshots/aboutme-mobile.png)
+![Screenshot 6](assets/images/screenshots/portfolio-mobil.png)
+![Screenshot 7](assets/images/screenshots/contact-info-mobile.png)
 
 ## Deployment
 
 The Web Application Can Be Accessed at [This Link](https://thebadams.github.io/thebadams-portfolio/)
 
 The Repository Can Be Found at [This Link](https://github.com/thebadams/thebadams-portfolio)
-
-## Credits
-
-The following [CodePen](https://codepen.io/mcraiganthony/pen/NxGxqm) acted as inpiration and starter code for the portfolio cards section of my HTML and CSS; I took the parts of it that I wanted made my own tweaks to the CSS and HTML.
 
 ## Contact Information
 
@@ -54,3 +74,13 @@ I can be contacted at the following places
 * [Email](mailto:bpeteradams@gmail.com)
 * [Github](https://www.github.com/thebadams)
 * [LinkedIn](https://www.linkedin.com/in/brian-adams-5a410b53/)
+
+##  The MIT License (MIT)
+
+Copyright © 2021 <Brian Adams>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
