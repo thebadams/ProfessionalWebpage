@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+import BrowserRouter  from 'react-router';
 import './App.css';
 import LandingPage from './components/LandingPage';
+import NavBar from './components/NavBar'
 
 function App() {
   return (
-    < LandingPage />
+    <>
+      <NavBar />
+      < LandingPage />
+    </>
   );
 }
 
