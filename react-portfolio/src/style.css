@@ -1,0 +1,126 @@
+:root {
+    --dark: #876796;
+    --light: #e3e8ec;
+    --accent: #bd7743;
+    --lightsat: hsl(207,19%, 25%);
+    --accentsat: hsl(26,60%,50%);
+    --darksat: hsl(281,19%,30%);
+
+}
+body {
+    font-family: 'Inter';
+    background-color: var(--dark);
+    color: var(--light)
+
+}
+
+.active .nav-link {
+    color: var(--lightsat);
+}
+
+.navbar {
+    background-color: var(--accent);
+    border-bottom: 2px solid var(--lightsat)
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-collapse .navbar-nav .nav-link {
+    color: var(--light);
+    transition: all .3s ease-in-out;
+}
+
+
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-collapse .navbar-nav .nav-link:hover {
+    color: var(--lightsat)
+}
+
+.btn {
+    color: var(--light);
+    background-color: var(--accent);
+    border-color: var(--accent);
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover, .btn:active {
+    color: var(--light);
+    background-color: var(--accentsat);
+    border-color: var(--accentsat);
+}
+
+.jumbotron {
+    background-color: var(--dark);
+    border-radius: 0%;
+}
+.jumbotron .profile-pic {
+    height: 400px;
+    width:400px;
+    border: 5px solid var(--accent);
+}
+
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--light);
+
+}
+
+.landing-page-btn:hover {
+    color: var(--lightsat);
+}
+
+.card {
+    background-color: var(--accent);
+    border: 2px solid var(--lightsat);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: var(--dark);
+}
+
+.btn-primary:hover{
+    background-color: var(--darksat);
+}
+.card-img-top{
+    border: 2px solid var(--lightsat);
+    border-radius: 5px;
+}
+.container {
+    background-color: var(--dark);
+}
+.contact-info {
+    transition: all 0.3s ease-in-out;
+}
+.contact-info:hover{
+    background-color: var(--accentsat);
+    color: var(--lightsat)
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--lightsat)
+}
+/* media queries */
+
+@media screen and (min-width: 992px){
+    .fixed-image {
+    position:fixed;
+    left: 10%;
+
+    }
+}
+
+
+
+
+
