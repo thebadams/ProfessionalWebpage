@@ -1,0 +1,55 @@
+import React from 'react'
+
+const AboutMe = () => {
+  return (
+    <div class="container text-center my-4">
+    
+    <div class="row">
+        <h1 class="display-3 col-12">About Me</h1>
+        <div class="col-12 col-lg-4 profile-pic-div justify-content-around">
+            <img src="./assets/images/profilepic.jpeg" class="profile-pic fixed-image mx-auto my-4" />
+        </div>
+        <div class="row col-12 col-lg-8">
+            <div class="card card-body my-3">
+                <p class="lead card-text">Hello, my name is Brian, and I’m a web developer. Born, raised, and currently located in Central New
+                    Jersey, I bring that tenacious Jersey attitude to all my work. Put my head down, and just do the work.</p>
+            </div>
+            <div class="card card-body my-3">
+                <p class="lead card-text">In my heart, I’m a creative person with a logical mindset. I see a problem set before me, and my
+                    first instinct is to
+                    break it down into its constituent parts and just tackle the problem. I want to create; to look at something and
+                    say “I
+                    MADE THIS.”</p>
+            </div>
+            <div class="card card-body my-3">
+                <p class="lead card-text">My inspiration for programming comes from my major hobbies:
+                <ul class="lead">
+                    <li>Tabletop Roleplaying Games, such as Dungeons and Dragons</li>
+                    <li>Skiing and Mountain Biking</li>
+                    <li>Fitness</li>
+                </ul>
+                
+                Each of these hobbies can benefit greatly from the web applications being built in the modern world, and it’s my
+                goal to
+                play a part in the development of these tools.</p>
+            </div>
+            <div class="card card-body my-3">
+                <p class="lead">With a keen interest in Full Stack development, and a concentration in JavaScript and the plethora
+                    of tools that it
+                    brings to the table for web application development, I am always pushing myself to learn new concepts, new
+                    technologies,
+                    and new methodologies to broaden my programming skills.
+                </p>
+            </div>
+            
+            
+        </div>
+               
+    </div>
+    
+    
+</div>
+  )
+}
+
+export default AboutMe;
