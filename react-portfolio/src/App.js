@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <NavBarComponent />
-      {/* < LandingPage />
-      <AboutMe />
-      <PortfolioContent /> */}
+       < LandingPage />
+      {/* <AboutMe />
+      <PortfolioContent />  */}
     </>
   );
 }
